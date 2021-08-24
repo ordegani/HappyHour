@@ -9,6 +9,7 @@ import Surprise from "./components/Surprise";
 import Search from "./components/Search";
 
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
