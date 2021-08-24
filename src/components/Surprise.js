@@ -1,44 +1,18 @@
+import { render } from "@testing-library/react";
 import React, { useEffect, useState } from "react";
 import "../App.css";
 import Recipe from "./Recipe";
+
 
 export const Surprise = () => {
   //save my edamam ID and KEY as consts
   const APP_ID = "a6127f3e";
   const APP_KEY = "379b06961b2bac9e9f2a72ba27d63d80";
-
-  const [recipes, setRecipes] = useState([]);
-  //setState search. default a empty string.
-  const [search, setSearch] = useState("");
   const [query, setQuery] = useState("cocktail");
-  const [favourites, setFavourites] = useState([]);
+  const [recipes, setRecipes] = useState([]);
+  const [search, setSearch] = useState("");
 
-  //add to my existing list of favourites new recipe
-  const addTofavourites = (savedRecipe) => {
-    let isExists = false;
 
-    favourites.find((favorite) => {
-      if (favorite.image === savedRecipe.image) {
-        isExists = true;
-        alert("Recipe is already saved");
-      }
-    });
-
-    if (!isExists) {
-      setFavourites([...favourites, savedRecipe]);
-      alert("Saved");
-      console.log(favourites);
-    }
-  };
-
-  const deleteFromfavourites = (recipe) => {
-    setFavourites(
-      favourites.filter((favourite) => favourite.title !== recipe.title)
-    );
-
-    // console.log(recipe);
-  };
-  //useEffect, rendering time is when query is updated
   useEffect(() => {
     getRecipes();
   }, [query]);
@@ -60,22 +34,6 @@ export const Surprise = () => {
     }
   };
 
-  //update search using user's input
-  const updateSearch = (e) => {
-    setSearch(e.target.value);
-  };
-
-  //set query equal to search pervent rendering whenever a letter is typed
-  //use e.preventDefault() to pervant default q='chicken' query
-  const getSearch = (e) => {
-    e.preventDefault();
-    setQuery(search);
-    setSearch("");
-  };
-
-  //form + map() recipes.
-  //create 'title', which 'meyatzeg'info from recipe.recipe.label. create 'calories', 'image', ingredients.
-  //recipe => (return jsx)
   return (
     <div className="maincontainer">
       <div className="recipes">
@@ -87,6 +45,7 @@ export const Surprise = () => {
             calories={recipe.recipe.calories}
             image={recipe.recipe.image}
             ingredients={recipe.recipe.ingredients}
+
           />
         ))}
       </div>
@@ -96,3 +55,6 @@ export const Surprise = () => {
 };
 
 export default Surprise;
+
+    
+ 

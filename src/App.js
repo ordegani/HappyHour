@@ -17,7 +17,7 @@ function App() {
           <Route path="/welcome" component={Welcome} />
           <Route exact path="/" component={Search} />
           <Route exact path="/info" component={Info} />
-          <Route exact path="/Random" component={Surprise} />
+          <Route exact path="/surprise" component={Surprise} />
         </Switch>
       </BrowserRouter>
     </div>

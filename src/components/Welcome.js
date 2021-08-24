@@ -23,7 +23,7 @@ const Welcome = () => {
         Please Check the Info section for tips on how to drink and diet wizely.
         <br />
         If you don't like choosing we can randomize a surprise for you - Try
-        navigating to 'Surprise' and see what happens.
+        navigating to 'Surprise Me' and see what happens.
         <br />
         Enjoy!
         <br />

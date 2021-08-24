@@ -94,6 +94,9 @@
   background-color: #e62d49;
   color: white;
 }
+.hidden{
+  display: none;
+}
 .helloContainer {
   display: flex;
   justify-content: center;

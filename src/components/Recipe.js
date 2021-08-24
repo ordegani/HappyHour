@@ -19,14 +19,18 @@ const Recipe = ({
         ))}
       </ul>
 
-      <button
-        className="savedList"
+      <button 
+
+        className=
+        {window.location.href=="http://localhost:3000/"?"savedList":"hidden"}
+       
         onClick={() => onClick({ title, calories, image, ingredients })}
         type="Submit"
       >
         {buttonText}
-      </button>
+   </button>
       <img className="image" src={image} alt="" />
+
     </div>
   );
 };
