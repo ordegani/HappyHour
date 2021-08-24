@@ -22,7 +22,7 @@ const Recipe = ({
       <button 
 
         className=
-        {window.location.href=="http://localhost:3000/"?"savedList":"hidden"}
+        {window.location.href=="https://happy--hour.herokuapp.com"?"savedList":"hidden"}
        
         onClick={() => onClick({ title, calories, image, ingredients })}
         type="Submit"
