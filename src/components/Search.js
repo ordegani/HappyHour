@@ -29,7 +29,6 @@ const Search = () => {
       setFavourites([...favourites, savedRecipe]);
       alert(`Saved ☟`);
       console.log(favourites);
-      
     }
   };
 
@@ -108,7 +107,7 @@ const Search = () => {
               calories={favourite.calories}
               image={favourite.image}
               ingredients={favourite.ingredients}
-              onClick={deleteFromfavourites} 
+              onClick={deleteFromfavourites}
               buttonText="DELETE"
             />
           ))}
