@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import '../App.css';
 
 function Navbar() {
-    
     return (
         <div>
             <ul className="navUl">

@@ -3,7 +3,6 @@ import Recipe from "./Recipe";
 import "../App.css";
 
 const Search = () => {
-    
   //save my edamam ID and KEY as consts
   const APP_ID = "a6127f3e";
   const APP_KEY = "379b06961b2bac9e9f2a72ba27d63d80";
@@ -30,6 +29,7 @@ const Search = () => {
       setFavourites([...favourites, savedRecipe]);
       alert(`Saved ☟`);
       console.log(favourites);
+      
     }
   };
 
@@ -108,7 +108,7 @@ const Search = () => {
               calories={favourite.calories}
               image={favourite.image}
               ingredients={favourite.ingredients}
-              onClick={deleteFromfavourites}
+              onClick={deleteFromfavourites} 
               buttonText="DELETE"
             />
           ))}

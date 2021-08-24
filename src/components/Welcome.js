@@ -2,7 +2,6 @@ import React from "react";
 import "../App.css";
 
 const Welcome = () => {
-    
   return (
     <div className="helloContainer">
       <div className="helloMessage">

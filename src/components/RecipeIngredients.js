@@ -2,7 +2,6 @@ import React from "react";
 import ".../App.css";
 
 const RecipeIngredients = ({ ingredients }) => {
-    
   return (
     <div className="recipeIngredients">
       <ul>
