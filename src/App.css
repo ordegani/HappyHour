@@ -167,6 +167,7 @@
 /* mobile */
 
 @media (max-width: 414px) {
+  
   .helloMessage {
     background-color: black;
     max-width: 100%;
