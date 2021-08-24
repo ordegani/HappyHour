@@ -21,7 +21,7 @@ const Recipe = ({
 
       <button
         className={
-          window.location.href == "https://happy--hour.herokuapp.com"? "savedList" : "hidden"
+          window.location.pathname == "/"? "savedList" : "hidden"
         }
         onClick={() => onClick({ title, calories, image, ingredients })}
         type="Submit"
