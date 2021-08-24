@@ -19,18 +19,18 @@ const Recipe = ({
         ))}
       </ul>
 
-      <button 
-
-        className=
-        {window.location.href=="https://happy--hour.herokuapp.com"?"savedList":"hidden"}
-       
+      <button
+        className={
+          window.location.href == "https://happy--hour.herokuapp.com"
+            ? "savedList"
+            : "hidden"
+        }
         onClick={() => onClick({ title, calories, image, ingredients })}
         type="Submit"
       >
         {buttonText}
-   </button>
+      </button>
       <img className="image" src={image} alt="" />
-
     </div>
   );
 };
