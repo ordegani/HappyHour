@@ -43,12 +43,6 @@
   flex-wrap: wrap;
   color: var(--main);
 }
-.recipes {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  color: var(--main);
-}
 .recipe {
   display: flex;
   flex-direction: column;
@@ -94,9 +88,6 @@
   background-color: #e62d49;
   color: white;
 }
-.favourites{
-  background-color: var(--sub);
-}
 .helloContainer {
   display: flex;
   justify-content: center;
@@ -108,7 +99,6 @@
   color: var(--main);
   border: var(--main) 2px double;
   text-align: center;
-
   font-size: 25px;
   font-weight: lighter;
   padding: 5vw;
@@ -128,9 +118,19 @@
 }
 .favourites {
   display: flex;
+  color: var(--main);
+  width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
-  color: var(--main);
+  background-color: var(--sub);
+}
+.favouritesContainer{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  flex-wrap: wrap;
+  color: #e62d49;
+  font-family: "Playfair Display", serif;
 }
 .closeContainer {
   list-style: none;
