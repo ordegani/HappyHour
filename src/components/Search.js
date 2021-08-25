@@ -29,7 +29,6 @@ const Search = ({favourites, setFavourites}) => {
       setFavourites([...favourites, savedRecipe]);
       alert(`Saved ☟`);
       console.log(favourites);
-      
     }
   };
 
