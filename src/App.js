@@ -28,7 +28,11 @@ function App() {
         </Route>
 
           <Route exact path="/info" component={Info} />
-          <Route exact path="/surprise" component={Surprise} />
+
+          <Route path="/surprise" exact>
+          <Surprise favourites={favourites} setFavourites={setFavourites} />
+        </Route>
+
         </Switch>
       </BrowserRouter>
     </div>

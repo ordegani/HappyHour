@@ -12,7 +12,7 @@ const Search = ({favourites, setFavourites}) => {
   //setState search. default a empty string.
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("cocktail");
-  const [favourites, setFavourites] = useState([]);
+  // const [favourites, setFavourites] = useState([]);
 
   //add to my existing list of favourites new recipe
   const addTofavourites = (savedRecipe) => {
@@ -33,11 +33,6 @@ const Search = ({favourites, setFavourites}) => {
     }
   };
 
-  const deleteFromfavourites = (recipe) => {
-    setFavourites(
-      favourites.filter((favourite) => favourite.title !== recipe.title)
-    );
-  };
   //useEffect, rendering time is when query is updated
   useEffect(() => {
     getRecipes();
@@ -98,7 +93,7 @@ const Search = ({favourites, setFavourites}) => {
           />
         ))}
       </div>
-      <div id="totalRecipeIngredients">
+      {/* <div id="totalRecipeIngredients">
         <label className="savedTitle">&#127865; &#127865; &#127865;</label>
         <div className="favourites">
           {favourites.map((favourite, index) => (
@@ -113,7 +108,7 @@ const Search = ({favourites, setFavourites}) => {
             />
           ))}
         </div>
-      </div>
+      </div> */}
       )
     </div>
   );

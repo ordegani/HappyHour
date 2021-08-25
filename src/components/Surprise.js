@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 import Recipe from "./Recipe";
 
-
-export const Surprise = () => {
+export const Surprise = ({favourites, setFavourites}) => {
   //save my edamam ID and KEY as consts
   const APP_ID = "a6127f3e";
   const APP_KEY = "379b06961b2bac9e9f2a72ba27d63d80";
@@ -34,6 +33,23 @@ export const Surprise = () => {
     }
   };
 
+  const addTofavourites = (savedRecipe) => {
+    let isExists = false;
+
+    favourites.find((favorite) => {
+      if (favorite.image === savedRecipe.image) {
+        isExists = true;
+        alert("Recipe is already saved");
+      }
+    });
+
+    if (!isExists) {
+      setFavourites([...favourites, savedRecipe]);
+      alert(`Saved ☟`);
+      console.log(favourites);
+      
+    }
+  };
   return (
     <div className="maincontainer">
       <div className="recipes">
@@ -45,7 +61,8 @@ export const Surprise = () => {
             calories={recipe.recipe.calories}
             image={recipe.recipe.image}
             ingredients={recipe.recipe.ingredients}
-
+            onClick={addTofavourites}
+            buttonText="Save"
           />
         ))}
       </div>

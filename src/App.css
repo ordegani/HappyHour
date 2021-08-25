@@ -94,8 +94,8 @@
   background-color: #e62d49;
   color: white;
 }
-.hidden{
-  display: none;
+.favourites{
+  background-color: var(--sub);
 }
 .helloContainer {
   display: flex;
@@ -114,11 +114,6 @@
   padding: 5vw;
   font-family: "Playfair Display", serif;
 }
-#totalRecipeIngredients {
-  color: black;
-  background-color: white;
-  padding: 15px 25px 25px 25px;
-}
 .favourite {
   display: flex;
   flex-direction: column;
@@ -131,26 +126,12 @@
   background-color: var(--sub);
   border: solid 2px var(--main);
 }
-
 .favourites {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   color: var(--main);
 }
-
-.savedTitle {
-  color: var(--main);
-  max-width: 100%;
-  display: flex;
-  justify-content: space-around;
-  font-weight: bold;
-  align-items: center;
-  font-size: 20px;
-  border-radius: 60px 60px 60px 60px;
-  padding: 25px 25px 25px 25px;
-}
-
 .closeContainer {
   list-style: none;
   color: var(--main);
@@ -167,7 +148,7 @@
 /* mobile */
 
 @media (max-width: 414px) {
-  
+
   .helloMessage {
     background-color: black;
     max-width: 100%;
