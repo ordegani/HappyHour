@@ -20,9 +20,7 @@ const Recipe = ({
       </ul>
 
       <button
-        className=
-          // {window.location.pathname == "/"? "savedList" : "hidden"}     
-        "savedList"
+        className= "savedList"
         onClick={() => onClick({ title, calories, image, ingredients })}
         type="Submit"
       >

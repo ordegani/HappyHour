@@ -26,9 +26,9 @@ export default function Saved({ favourites, setFavourites }) {
           />
         ))}
       </div>
-      <span className="print" onClick={print}>
-        PRINT
-      </span>
+      {/* // {window.location.pathname == "/"? "savedList" : "hidden"}      */}
+
+      <button className={favourites !== []?"printBtn":"hidden"} onClick={print}>PRINT ALL</button>
     </div>
   );
 }

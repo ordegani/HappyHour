@@ -129,8 +129,16 @@
   flex-direction: column;
  align-items: center;
   flex-wrap: wrap;
-  color: #e62d49;
   font-family: "Playfair Display", serif;
+}
+.printBtn{
+  background-color: var(--sub);
+  color: var(--main);
+  padding: 4px;
+  font-size: large;
+}
+.hidden{
+  display: none;
 }
 .closeContainer {
   list-style: none;
