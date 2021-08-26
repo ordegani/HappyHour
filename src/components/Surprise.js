@@ -3,14 +3,13 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 import Recipe from "./Recipe";
 
-export const Surprise = ({favourites, setFavourites}) => {
+export const Surprise = ({ favourites, setFavourites }) => {
   //save my edamam ID and KEY as consts
   const APP_ID = "a6127f3e";
   const APP_KEY = "379b06961b2bac9e9f2a72ba27d63d80";
   const [query, setQuery] = useState("cocktail");
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-
 
   useEffect(() => {
     getRecipes();
@@ -47,7 +46,6 @@ export const Surprise = ({favourites, setFavourites}) => {
       setFavourites([...favourites, savedRecipe]);
       alert(`Saved ☟`);
       console.log(favourites);
-      
     }
   };
   return (
@@ -72,6 +70,3 @@ export const Surprise = ({favourites, setFavourites}) => {
 };
 
 export default Surprise;
-
-    
- 
