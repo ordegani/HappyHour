@@ -26,7 +26,9 @@ export default function Saved({ favourites, setFavourites, i }) {
           />
         ))}
       </div>
-      <button className="printBtn" onClick={print}>PRINT ALL</button>
+      <button className="printBtn" onClick={print}>
+        PRINT ALL
+      </button>
     </div>
   );
 }
