@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Recipe from "./Recipe";
 import "../App.css";
 
-const Search = ({favourites, setFavourites}) => {
+const Search = ({ favourites, setFavourites }) => {
   //save my edamam ID and KEY as consts
   const APP_ID = "a6127f3e";
   const APP_KEY = "379b06961b2bac9e9f2a72ba27d63d80";
