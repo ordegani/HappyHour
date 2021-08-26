@@ -82,11 +82,17 @@
   margin-right: 15%;
   background-color: #1c1c1c;
 }
-.savedList {
+.savedList ,.printBtn{
   border-radius: 60px 60px 60px 60px;
   border: none;
   background-color: #e62d49;
   color: white;
+}
+.printBtn{
+  margin: 1rem;
+}
+.hidden{
+  display: none;
 }
 .helloContainer {
   display: flex;
@@ -106,6 +112,7 @@
 }
 .favourite {
   display: flex;
+  flex-direction: column;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -131,12 +138,7 @@
   flex-wrap: wrap;
   font-family: "Playfair Display", serif;
 }
-.printBtn {
-  background-color: var(--sub);
-  color: var(--main);
-  padding: 4px;
-  font-size: large;
-}
+
 .hidden {
   display: none;
 }

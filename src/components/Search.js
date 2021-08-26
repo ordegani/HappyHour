@@ -92,22 +92,6 @@ const Search = ({ favourites, setFavourites }) => {
           />
         ))}
       </div>
-      {/* <div id="totalRecipeIngredients">
-        <label className="savedTitle">&#127865; &#127865; &#127865;</label>
-        <div className="favourites">
-          {favourites.map((favourite, index) => (
-            <Recipe
-              key={index}
-              title={favourite.title}
-              calories={favourite.calories}
-              image={favourite.image}
-              ingredients={favourite.ingredients}
-              onClick={deleteFromfavourites} 
-              buttonText="DELETE"
-            />
-          ))}
-        </div>
-      </div> */}
       )
     </div>
   );

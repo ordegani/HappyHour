@@ -2,7 +2,7 @@ import React from "react";
 import Recipe from "./Recipe";
 import "../App.css";
 
-export default function Saved({ favourites, setFavourites, i }) {
+export default function Saved({ favourites, setFavourites }) {
   const deleteFromfavourites = (recipe) => {
     setFavourites(
       favourites.filter((favourite) => favourite.title !== recipe.title)
@@ -13,6 +13,9 @@ export default function Saved({ favourites, setFavourites, i }) {
   }
   return (
     <div className="favouritesContainer">
+              <button className="printBtn" onClick={print}>
+        PRINT
+      </button>
       <div className="favourites">
         {favourites.map((favourite, index) => (
           <Recipe
@@ -26,9 +29,6 @@ export default function Saved({ favourites, setFavourites, i }) {
           />
         ))}
       </div>
-      <button className="printBtn" onClick={print}>
-        PRINT ALL
-      </button>
     </div>
   );
 }
