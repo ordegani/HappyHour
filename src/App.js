@@ -20,19 +20,18 @@ function App() {
           {/* <Route exact path="/" component={Search} /> */}
 
           <Route path="/" exact>
-          <Search favourites={favourites} setFavourites={setFavourites}/>
-        </Route>
+            <Search favourites={favourites} setFavourites={setFavourites} />
+          </Route>
 
-        <Route path="/saved" exact>
-          <Saved favourites={favourites} setFavourites={setFavourites}/>
-        </Route>
+          <Route path="/saved" exact>
+            <Saved favourites={favourites} setFavourites={setFavourites} />
+          </Route>
 
           <Route exact path="/info" component={Info} />
 
           <Route path="/surprise" exact>
-          <Surprise favourites={favourites} setFavourites={setFavourites} />
-        </Route>
-
+            <Surprise favourites={favourites} setFavourites={setFavourites} />
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>
