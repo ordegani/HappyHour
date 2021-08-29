@@ -27,7 +27,7 @@ const Search = ({ favourites, setFavourites }) => {
 
     if (!isExists) {
       setFavourites([...favourites, savedRecipe]);
-      alert(`Saved ☟`);
+      alert(`Saved`);
       console.log(favourites);
     }
   };
