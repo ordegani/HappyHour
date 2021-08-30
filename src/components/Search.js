@@ -61,7 +61,6 @@ const Search = ({ favourites, setFavourites }) => {
     e.preventDefault();
     setQuery(search);
     setSearch("");
-
   };
 
   return (
