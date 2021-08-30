@@ -98,7 +98,7 @@
 }
 .unSavedMessage {
   color: var(--main);
-  background-color: white;
+  background-color: black;
   font-family: "Spicy Rice", cursive;
   border: var(--main) 1px solid;
   padding: 2px;
@@ -170,7 +170,7 @@
     max-width: 100%;
     display: flex;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 15px;
     padding: none;
     font-family: "Playfair Display", serif;
   }
