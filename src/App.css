@@ -95,6 +95,14 @@
 .hide{
   display: none;
 }
+.unSavedMessage{
+  color: var(--main);
+  background-color: white;
+  font-family: "Spicy Rice", cursive;
+  border: var(--main) 1px solid;
+  padding: 2px;
+  font-weight: lighter;
+}
 .helloContainer {
   display: flex;
   justify-content: center;
@@ -140,9 +148,6 @@
   font-family: "Playfair Display", serif;
 }
 
-.hidden {
-  display: none;
-}
 .closeContainer {
   list-style: none;
   color: var(--main);
