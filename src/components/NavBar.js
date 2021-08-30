@@ -4,7 +4,6 @@ import Saved from "./Saved";
 import "../App.css";
 
 function Navbar({ favourites, setFavourites }) {
-
   return (
     <div>
       <ul className="navUl">
