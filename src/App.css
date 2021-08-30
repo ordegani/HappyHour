@@ -170,7 +170,7 @@
     max-width: 100%;
     display: flex;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 20px;
     padding: none;
     font-family: "Playfair Display", serif;
   }
@@ -184,6 +184,7 @@
     font-size: 10px;
     font-family: "Playfair Display", serif;
     display: flex;
+    font-weight: bold;
     justify-content: flex-start;
   }
 
@@ -205,4 +206,5 @@
   .navUl > li {
     padding: 2px;
   }
+
 }
