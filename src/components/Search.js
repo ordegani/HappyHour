@@ -61,6 +61,7 @@ const Search = ({ favourites, setFavourites }) => {
     e.preventDefault();
     setQuery(search);
     setSearch("");
+
   };
 
   return (
@@ -68,7 +69,7 @@ const Search = ({ favourites, setFavourites }) => {
       <form onSubmit={getSearch} className="search-form">
         <input
           className="search-bar"
-          placeholder="Type in your favorite fruit/spice"
+          placeholder={"Type in your favorite fruit/spice"}
           type="text"
           value={search}
           onChange={updateSearch}

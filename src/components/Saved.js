@@ -13,10 +13,10 @@ export default function Saved({ favourites, setFavourites }) {
   }
   return (
     <div className="favouritesContainer">
-              <button className="printBtn" onClick={print}>
+              <button className={favourites.length==0?"hide":"printBtn"} onClick={print}>
         PRINT
       </button>
-      <div className="favourites">
+      <div className={"favourites"}>
         {favourites.map((favourite, index) => (
           <Recipe
             key={index}
