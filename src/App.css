@@ -83,19 +83,20 @@
   margin-right: 15%;
   background-color: #1c1c1c;
 }
-.savedList ,.printBtn{
+.savedList,
+.printBtn {
   border-radius: 60px 60px 60px 60px;
   border: none;
   background-color: #e62d49;
   color: white;
 }
-.printBtn{
+.printBtn {
   margin: 1rem;
 }
-.hide{
+.hide {
   display: none;
 }
-.unSavedMessage{
+.unSavedMessage {
   color: var(--main);
   background-color: white;
   font-family: "Spicy Rice", cursive;
