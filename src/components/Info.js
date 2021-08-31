@@ -6,7 +6,7 @@ const Info = () => {
     <div className="closeContainer">
       <div className="alcoholMessage">
         <label>Wize Alcohol Consuming Tips:</label>
-        <ol>
+        <ul>
           <li>
             1. Hair of the dog. Drinking to ease the symptoms of a hangover is
             sometimes called taking the hair of the dog, or hair of the dog that
@@ -73,11 +73,11 @@ const Info = () => {
           </li>
           Takken from HHarvard Healthh Publishing -
           https://www.health.harvard.edu/staying-healthy/7-steps-to-cure-your-hangover-and-ginkgo-biloba-whats-the-verdict
-        </ol>
+        </ul>
       </div>
       <div className="caloriesMessage">
         <label>Wize Diet Tips:</label>
-        <ol>
+        <ul>
           <li>
             1. Eat breakfast: A protein and healthy fat breakfast can keep you
             full for longer and help prevent snacking during the day.
@@ -119,7 +119,7 @@ const Info = () => {
             7. Eat more fiber: Fiber, found in fruits, vegetables, and
             wholegrains, can help you feel full and encourage healthy digestion.
           </li>
-        </ol>
+        </ul>
       </div>
     </div>
   );
