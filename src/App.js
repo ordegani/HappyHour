@@ -27,11 +27,12 @@ function App() {
             <Saved favourites={favourites} setFavourites={setFavourites} />
           </Route>
 
-          <Route exact path="/info" component={Info} />
-
           <Route path="/surprise" exact>
             <Surprise favourites={favourites} setFavourites={setFavourites} />
           </Route>
+          
+          <Route exact path="/info" component={Info} />
+
         </Switch>
       </BrowserRouter>
     </div>

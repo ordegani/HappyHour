@@ -18,13 +18,13 @@ function Navbar({ favourites, setFavourites }) {
           </Link>
         </li>
         <li>
-          <Link className="link" to="/info">
-            More Info
+          <Link className="link" to="/surprise">
+          Surprise Me
           </Link>
         </li>
         <li>
-          <Link className="link" to="/surprise">
-            Surprise Me
+          <Link className="link" to="/info">
+            More Info
           </Link>
         </li>
         <li>
