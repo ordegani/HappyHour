@@ -158,9 +158,6 @@
 .alcoholMessage {
   border: var(--main) 2px solid;
 }
-.alcoholMessage>li{
-  list-style: none;
-}
 .caloriesMessage {
   border: var(--main) 2px solid;
 }
@@ -209,5 +206,4 @@
   .navUl > li {
     padding: 2px;
   }
-
 }
