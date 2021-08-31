@@ -19,16 +19,16 @@ function Navbar({ favourites, setFavourites }) {
         </li>
         <li>
           <Link className="link" to="/surprise">
-          Surprise Me
+            Surprise Me
           </Link>
         </li>
         <li>
-        <Link className="link" to="/saved">
+          <Link className="link" to="/saved">
             Saved
           </Link>
         </li>
         <li>
-        <Link className="link" to="/info">
+          <Link className="link" to="/info">
             More Info
           </Link>
         </li>
