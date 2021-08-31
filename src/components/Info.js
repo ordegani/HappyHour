@@ -106,6 +106,7 @@ const Info = () => {
             use a wheelchair, there are exercises that can boost heart health
             and strength.
           </li>
+
           <li>
             Drink water: It is healthful, has no calories, and can fill you up.
             Avoid alcohol and sodas as these can easily provide far too many
