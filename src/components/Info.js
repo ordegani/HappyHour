@@ -79,29 +79,29 @@ const Info = () => {
         <label>Wize Diet Tips:</label>
         <ul>
           <li>
-            1. Eat breakfast: A protein and healthy fat breakfast can keep you
+             Eat breakfast: A protein and healthy fat breakfast can keep you
             full for longer and help prevent snacking during the day.
           </li>
 
           <li>
-            2. Eat regular meals: This can help you burn calories more
+             Eat regular meals: This can help you burn calories more
             effectively and helps prevent mindless snacking.
           </li>
 
           <li>
-            3. Remember your “five-a-day:” Fruits and vegetables can be a tasty
+             Remember your “five-a-day:” Fruits and vegetables can be a tasty
             snack and they can bulk out your meals. They are high in nutrients
             and fiber and low in calories and fat.
           </li>
 
           <li>
-            4. Eat slow-burning calories: High-fiber carbohydrates, such as
+             Eat slow-burning calories: High-fiber carbohydrates, such as
             legumes, and healthy fats, such as avocado, take longer to release
             energy, so you will not get hungry as quickly.
           </li>
 
           <li>
-            5. Exercise: This can help burn off extra calories, and it can make
+             Exercise: This can help burn off extra calories, and it can make
             you feel good. A brisk daily walk is easy for most people to do and
             costs nothing. Challenge yourself with a pedometer. For people who
             use a wheelchair, there are exercises that can boost heart health
@@ -109,14 +109,14 @@ const Info = () => {
           </li>
 
           <li>
-            6. Drink water: It is healthful, has no calories, and can fill you
+             Drink water: It is healthful, has no calories, and can fill you
             up. Avoid alcohol and sodas as these can easily provide far too many
             calories. If you crave sweet drinks, choose unsweetened fruit
             juices, or better still, get a juice maker.
           </li>
 
           <li>
-            7. Eat more fiber: Fiber, found in fruits, vegetables, and
+             Eat more fiber: Fiber, found in fruits, vegetables, and
             wholegrains, can help you feel full and encourage healthy digestion.
           </li>
         </ul>
