@@ -211,11 +211,6 @@
     background-color: var(--sub);
     border: solid 2px var(--main);
   }
-
-  .link {
-    color: var(--main);
-    text-decoration: none;
-  }
   .navBar {
     position: relative;
     display: inline-block;
