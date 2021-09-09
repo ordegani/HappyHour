@@ -58,6 +58,7 @@ export const Surprise = ({ favourites, setFavourites }) => {
   return (
     <div className="maincontainer">
       <div className="recipes">
+        <div className="MobileDiv"></div>
         {recipes.slice(9).map((recipe, index) => (
           <Recipe
             key={index}
