@@ -205,6 +205,7 @@
   } */
   .MobileDiv {
     margin-top: 50%;
+    background-color: transparent;
   }
   .search-bar,
   .search-button {
