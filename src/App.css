@@ -213,10 +213,6 @@
   .unSavedMessage {
     margin-top: 50%;
   }
-  
-  .unSavedMessage{
-    margin-top: 70%;
-  }
   .recipe {
     display: flex;
     flex-direction: column;
