@@ -199,6 +199,7 @@
     min-height: 8vh;
     background-color: transparent;
     border: none;
+    opacity: 80%;
   }
   .navUl > li {
     font-weight: bold;
