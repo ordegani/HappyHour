@@ -217,24 +217,20 @@
     color: var(--main);
     text-decoration: none;
   }
-  .navUl {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    font-family: "Playfair Display", serif;
-    border: none;
-    margin-left: 0%;
-    margin-right:0%;
-    background-color: transparent;
-    height: 100vh;
-    z-index: 1;
-
-    /* position:absolute; */
-  /* } */
-  }
   .navBar{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
+    position: relative;
+    display: inline-block;
+    left:10px;   
+}
+.navContainer{
+  background:transparen;
+  border: 2px transparent solid;
+  margin-top: 400px;;
+  width: 10%;
+  height: 249px;   
+}
+.link{
+  list-style: none; 
+border-radius: 60px;
+}
 }
