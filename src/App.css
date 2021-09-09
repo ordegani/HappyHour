@@ -102,12 +102,7 @@
   padding: 2px;
   font-weight: lighter;
 }
-.helloContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5vw;
-}
+
 .helloMessage {
   background-color: black;
   color: var(--main);
@@ -162,7 +157,6 @@
 .caloriesMessage {
   border: var(--main) 2px solid;
 }
-
 /* mobile */
 
 @media (max-width: 414px) {
@@ -170,17 +164,19 @@
     background-color: black;
     max-width: 100%;
     display: flex;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 15px;
     padding: none;
     font-family: "Playfair Display", serif;
+    margin-top: 50%;
+    background-color: white;
+    border-radius: 60px;
   }
   .helloContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    max-height: 55;
   }
+
   .navBar {
     display: flex;
     justify-content: center;
