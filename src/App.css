@@ -208,8 +208,14 @@
     background-color: transparent;
   }
   .search-bar,
-  .search-button {
+  .search-button,
+  .printBtn,
+  .unSavedMessage {
     margin-top: 50%;
+  }
+  
+  .unSavedMessage{
+    margin-top: 70%;
   }
   .recipe {
     display: flex;
