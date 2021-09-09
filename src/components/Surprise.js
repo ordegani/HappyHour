@@ -71,6 +71,7 @@ export const Surprise = ({ favourites, setFavourites }) => {
             buttonText="Save"
           />
         ))}
+        <div className="MobileDiv"></div>
       </div>
       )
     </div>
