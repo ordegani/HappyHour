@@ -5,7 +5,7 @@ import "../App.css";
 
 function Navbar({ favourites, setFavourites }) {
   return (
-    <div>
+    <div className="navBar">
       <ul className="navUl">
         <li>
           <Link className="link" to="/welcome">

@@ -15,7 +15,7 @@ export const Surprise = ({ favourites, setFavourites }) => {
     getRecipes();
   }, [query]);
 
-  const flavourArray = ["banana", "apple", "lemon", "campari", "strawberry"];
+  const flavourArray = ["banana", "apple", "lemon", "campari", "strawberry", "coffee"];
   const ran = Math.floor(Math.random() * flavourArray.length);
   const searcher = flavourArray[ran];
 
