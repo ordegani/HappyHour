@@ -170,7 +170,7 @@
     font-family: "Playfair Display", serif;
     margin-top: 50%;
     background-color: white;
-    border-radius: 60px;
+    border-radius: 0px 60px 0px 60px;
   }
   .helloContainer {
     display: flex;
@@ -209,9 +209,14 @@
   }
   .search-bar,
   .search-button,
-  .printBtn,
-  .unSavedMessage {
+  .printBtn {
     margin-top: 50%;
+  }
+  .unSavedMessage{
+    background-color: white;
+      margin-top: 100%;
+      border-radius: 60px;
+     
   }
   .recipe {
     display: flex;
