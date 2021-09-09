@@ -205,7 +205,7 @@
     background-color: white;
     width: 100vw;
   }
-  .recipe>h1{
+  .recipe > h1 {
     margin-top: 50%;
   }
   .search-bar,
@@ -224,5 +224,4 @@
     background-color: var(--sub);
     border: solid 2px var(--main);
   }
-
 }
