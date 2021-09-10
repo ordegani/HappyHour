@@ -154,7 +154,6 @@ width: 0vw;
   border: var(--main) 2px solid;
 }
 .closeContainer > ul {
-  /* .caloriesMessage .ol{ */
   list-style: none;
 }
 .caloriesMessage {
@@ -210,6 +209,9 @@ width: 0vw;
     margin-top: 50%;
     background-color: transparent;
   }
+  .MobileDiv2{
+    display: none;
+  }
   .search-bar,
   .search-button,
   .printBtn {
@@ -223,13 +225,13 @@ width: 0vw;
   .recipe {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: flex-start;
     min-width: 65%;
     max-width: 80%;
     border-radius: 10px;
     box-shadow: 0px 5px 20px var(--main);
     background-color: var(--sub);
     border: solid 2px var(--main);
+    padding: 0px 25px 15px 25px;
   }
 }
