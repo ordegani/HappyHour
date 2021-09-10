@@ -203,7 +203,7 @@
     margin-top: 50%;
     background-color: transparent;
   }
-  .MobileDiv2{
+  .MobileDiv2 {
     display: none;
   }
   .search-bar,
@@ -224,4 +224,3 @@
     padding: 0px 25px 15px 25px;
   }
 }
-
