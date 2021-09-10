@@ -8,6 +8,7 @@ const Recipe = ({
   ingredients,
   onClick,
   buttonText,
+  input
 }) => {
   return (
     <div className="recipe">
@@ -15,7 +16,11 @@ const Recipe = ({
       <p>Calories: {Math.floor(calories)}</p>
       <ul>
         {ingredients.map((ingredients, index) => (
-          <li key={index}> {ingredients.text}</li>
+          <li key={index}> 
+          <input type="checkbox" className={window.location.pathname !== "/saved"? "hide":"checkbox"}/>
+           {ingredients.text} 
+          </li>
+          
         ))}
       </ul>
 

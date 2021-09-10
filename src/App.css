@@ -94,6 +94,9 @@
 .hide {
   display: none;
 }
+.checkbox{
+width: 0vw;
+}
 .unSavedMessage {
   color: var(--main);
   background-color: black;

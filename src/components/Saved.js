@@ -23,8 +23,11 @@ export default function Saved({ favourites, setFavourites }) {
       🍸you haven't saved anything yet🍸
       </h3>
       <div className={"favourites"}>
-        {favourites.map((favourite, index) => (
+        {favourites.map((favourite, index) => (  
+
           <Recipe
+          input
+
             key={index}
             title={favourite.title}
             calories={favourite.calories}
