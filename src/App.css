@@ -156,6 +156,7 @@
 .caloriesMessage {
   border: var(--main) 2px solid;
 }
+
 /* mobile */
 
 @media (max-width: 414px) {
