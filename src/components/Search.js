@@ -62,7 +62,9 @@ const Search = ({ favourites, setFavourites }) => {
     setQuery(search);
     setSearch("");
   };
-
+  useEffect(() => {
+    localStorage.setItem('favourites', JSON.stringify(favourites))
+}, [favourites])
   return (
     <div className="maincontainer">
       <form onSubmit={getSearch} className="search-form">
