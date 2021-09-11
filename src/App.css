@@ -94,6 +94,11 @@
 .hide {
   display: none;
 }
+.blur{
+  background-color: gray;
+  opacity: 50%;
+  border: none;
+}
 .unSavedMessage {
   color: var(--main);
   background-color: black;
@@ -225,8 +230,5 @@
     max-width: 80%;
     border: solid 2px var(--main);
     padding: 0px 25px 15px 25px;
-  }
-  .yellow{
-    background-color: yellow;
   }
 }

@@ -12,10 +12,12 @@ const Search = ({ favourites, setFavourites }) => {
   //setState search. default a empty string.
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("cocktail");
+  const [btnColor, setbtnColor] = useState("savedList")
   // const [favourites, setFavourites] = useState([]);
 
   //add to my existing list of favourites new recipe
   const addTofavourites = (savedRecipe) => {
+   
     let isExists = false;
 
     favourites.find((favorite) => {
@@ -27,6 +29,7 @@ const Search = ({ favourites, setFavourites }) => {
 
     if (!isExists) {
       setFavourites([...favourites, savedRecipe]);
+      setbtnColor("blur");
       alert(`Saved`);
       console.log(favourites);
     }
@@ -61,7 +64,7 @@ const Search = ({ favourites, setFavourites }) => {
     setQuery(search);
     setSearch("");
   };
-  
+
   //TODO
   useEffect(() => {
     localStorage.setItem('favourites', JSON.stringify(favourites))

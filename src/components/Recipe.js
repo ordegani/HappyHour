@@ -9,7 +9,7 @@ const Recipe = ({
   onClick,
   buttonText,
 }) => {
-  const [btnColor, setbtnColor] = useState("savedList")
+
   return (
     <div className="recipe">
       <h1>{title}</h1>
@@ -31,8 +31,8 @@ const Recipe = ({
       <button
         /* // {window.location.pathname == "/"? "savedList" : "hidden"}      */
         className={btnColor}
-        // onClick={() => onClick({ title, calories, image, ingredients })}
-        onClick={()=>setbtnColor("yellow")}
+        onClick={() => onClick({ title, calories, image, ingredients })}
+        // onClick={()=>setbtnColor("blur")}
         type="Submit"
       >
         {buttonText}
