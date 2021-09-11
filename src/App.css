@@ -83,10 +83,10 @@
 }
 .savedList,
 .printBtn {
+  border-radius: 60px 60px 60px 60px;
   background-color: #e62d49;
-  border-radius: 60px;
   color: white;
-
+  border-radius: 60px;
 }
 .printBtn {
   margin: 1rem;
