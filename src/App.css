@@ -226,4 +226,7 @@
     border: solid 2px var(--main);
     padding: 0px 25px 15px 25px;
   }
+  .yellow{
+    background-color: yellow;
+  }
 }

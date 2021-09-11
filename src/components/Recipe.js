@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 
 const Recipe = ({
@@ -9,6 +9,7 @@ const Recipe = ({
   onClick,
   buttonText,
 }) => {
+  const [btnColor, setbtnColor] = useState("savedList")
   return (
     <div className="recipe">
       <h1>{title}</h1>
@@ -29,8 +30,9 @@ const Recipe = ({
 
       <button
         /* // {window.location.pathname == "/"? "savedList" : "hidden"}      */
-        className="savedList"
-        onClick={() => onClick({ title, calories, image, ingredients })}
+        className={btnColor}
+        // onClick={() => onClick({ title, calories, image, ingredients })}
+        onClick={()=>setbtnColor("yellow")}
         type="Submit"
       >
         {buttonText}
