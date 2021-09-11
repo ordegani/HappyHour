@@ -83,10 +83,10 @@
 }
 .savedList,
 .printBtn {
-  border-radius: 60px 60px 60px 60px;
-  border: none;
   background-color: #e62d49;
+  border-radius: 60px;
   color: white;
+
 }
 .printBtn {
   margin: 1rem;
@@ -144,17 +144,16 @@
 .closeContainer {
   list-style: none;
   color: var(--main);
-  background-color: white;
+  background-color: transparent;
   font-family: "Playfair Display", serif;
 }
 .alcoholMessage {
   border: var(--main) 2px solid;
-}
-.closeContainer > ul {
-  list-style: none;
+  background-color: white;
 }
 .caloriesMessage {
   border: var(--main) 2px solid;
+  background-color: white;
 }
 
 /* mobile */
@@ -201,7 +200,7 @@
     width: 100vw;
   }
   .MobileDiv {
-    margin-top: 50%;
+    /* margin-top: 50%; */
     background-color: transparent;
   }
   .MobileDiv2 {
@@ -211,6 +210,9 @@
   .search-button,
   .printBtn {
     margin-top: 50%;
+  }
+  .closeContainer{
+    padding-top: 50%;
   }
   .unSavedMessage {
     background-color: white;
