@@ -30,9 +30,8 @@ const Recipe = ({
 
       <button
         /* // {window.location.pathname == "/"? "savedList" : "hidden"}      */
-        className={btnColor}
+        className="savedList"
         onClick={() => onClick({ title, calories, image, ingredients })}
-        // onClick={()=>setbtnColor("blur")}
         type="Submit"
       >
         {buttonText}
