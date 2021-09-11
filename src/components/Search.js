@@ -31,7 +31,6 @@ const Search = ({ favourites, setFavourites }) => {
       console.log(favourites);
     }
   };
-
   //useEffect, rendering time is when query is updated
   useEffect(() => {
     getRecipes();
@@ -62,9 +61,11 @@ const Search = ({ favourites, setFavourites }) => {
     setQuery(search);
     setSearch("");
   };
+  //TODO
   useEffect(() => {
     localStorage.setItem('favourites', JSON.stringify(favourites))
 }, [favourites])
+
   return (
     <div className="maincontainer">
       <form onSubmit={getSearch} className="search-form">
