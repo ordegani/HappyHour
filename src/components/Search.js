@@ -16,7 +16,6 @@ const Search = ({ favourites, setFavourites }) => {
 
   //add to my existing list of favourites new recipe
   const addTofavourites = (savedRecipe) => {
-   
     let isExists = false;
 
     favourites.find((favorite) => {
@@ -65,8 +64,8 @@ const Search = ({ favourites, setFavourites }) => {
 
   //TODO
   useEffect(() => {
-    localStorage.setItem('favourites', JSON.stringify(favourites))
-}, [favourites])
+    localStorage.setItem("favourites", JSON.stringify(favourites));
+  }, [favourites]);
 
   return (
     <div className="maincontainer">
