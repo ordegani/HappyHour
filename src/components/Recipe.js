@@ -8,8 +8,8 @@ const Recipe = ({
   ingredients,
   onClick,
   buttonText,
+  heart,
 }) => {
-
   return (
     <div className="recipe">
       <h1>{title}</h1>
@@ -36,6 +36,7 @@ const Recipe = ({
       >
         {buttonText}
       </button>
+      <div className="heart">{heart}</div>
       <img className="image" src={image} alt="" />
     </div>
   );

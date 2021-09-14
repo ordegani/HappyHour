@@ -94,10 +94,9 @@
 .hide {
   display: none;
 }
-.blur{
-  background-color: gray;
-  opacity: 50%;
-  border: none;
+.heart{
+  color: #e62d49;
+  height: 1rem;
 }
 .unSavedMessage {
   color: var(--main);
