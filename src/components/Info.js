@@ -5,7 +5,6 @@ const Info = () => {
   return (
     <div className="closeContainer">
       <div className="alcoholMessage">
-        {/* <div className="MobileDiv"></div> */}
         <label>Wize Alcohol Consuming Tips:</label>
         <ul>
           <li>
