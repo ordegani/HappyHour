@@ -94,7 +94,7 @@
 .hide {
   display: none;
 }
-.heart{
+.heart {
   color: #e62d49;
   height: 1rem;
 }
@@ -215,7 +215,7 @@
   .printBtn {
     margin-top: 50%;
   }
-  .closeContainer{
+  .closeContainer {
     padding-top: 50%;
   }
   .unSavedMessage {
