@@ -20,8 +20,8 @@ const Welcome = () => {
         Save cocktails you want to make by clicking on the 'save' button. <br />
         🍸
         <br />
-        You can mark the recipe's ingredients that are missing from your party's kitchen, and print it for your next shopping day
-        🍸
+        You can mark the recipe's ingredients that are missing from your party's
+        kitchen, and print it for your next shopping day 🍸
         <br />
         Please Check the Info section for tips on how to drink and diet wizely.
         <br />
