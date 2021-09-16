@@ -20,6 +20,9 @@ const Welcome = () => {
         Save cocktails you want to make by clicking on the 'save' button. <br />
         🍸
         <br />
+        You can mark the recipe's ingredients you need to buy, print it and save for shoping day
+        🍸
+        <br />
         Please Check the Info section for tips on how to drink and diet wizely.
         <br />
         If you don't like choosing we can randomize a surprise for you - Try
