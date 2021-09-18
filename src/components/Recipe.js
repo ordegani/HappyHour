@@ -36,7 +36,6 @@ const Recipe = ({
       >
         {buttonText}
       </button>
-      <div className="heart">{heart}</div>
       <img className="image" src={image} alt="" />
     </div>
   );

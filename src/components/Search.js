@@ -93,7 +93,6 @@ const Search = ({ favourites, setFavourites }) => {
             ingredients={recipe.recipe.ingredients}
             onClick={addTofavourites}
             buttonText="Save"
-            heart="<3"
           />
         ))}
       </div>
