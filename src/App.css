@@ -10,6 +10,7 @@
   min-height: 100vh;
   font-family: "Playfair Display", serif;
   border-bottom: black 2px solid;
+  cursor: grab;
 }
 .search-form {
   min-height: 10vh;
