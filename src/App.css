@@ -42,7 +42,7 @@
   flex-wrap: wrap;
   color: var(--main);
 }
-.recipe {
+.recipe{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +54,9 @@
   background-color: var(--sub);
   padding: 15px 25px 25px 25px;
   border: solid 2px var(--main);
+}
+.recipe > ul > p {
+
 }
 .recipe li {
   list-style: none;
