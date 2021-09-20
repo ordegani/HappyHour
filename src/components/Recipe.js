@@ -14,7 +14,7 @@ const Recipe = ({
     <div className="recipe">
       <h1>{title}</h1>
       <p>Calories: {Math.floor(calories)}</p>
-      <ul> I need to buy:
+      <ul> <p>I need to buy:<br/></p>
         {ingredients.map((ingredients, index) => (
           <li key={index}>
             <input
