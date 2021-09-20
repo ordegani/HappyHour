@@ -14,7 +14,10 @@ const Recipe = ({
     <div className="recipe">
       <h1>{title}</h1>
       <p>Calories: {Math.floor(calories)}</p>
-      <p className={window.location.pathname !== "/saved" ? "hide" : "ShopingTitle"}
+      <p
+        className={
+          window.location.pathname !== "/saved" ? "hide" : "ShopingTitle"
+        }
       >
         I need to buy:
         <br />
