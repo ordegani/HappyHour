@@ -28,7 +28,7 @@ const Recipe = ({
             <input
               type="checkbox"
               className={
-                window.location.name !== "/saved" ? "hide" : "checkbox"
+                window.location.pathname !== "/saved" ? "hide" : "checkbox"
               }
             />
             {ingredients.text}
