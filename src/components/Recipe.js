@@ -16,7 +16,7 @@ const Recipe = ({
       <p>Calories: {Math.floor(calories)}</p>
       <ul>
         {ingredients.map((ingredients, index) => (
-          <li key={index}>
+          <li key={index}>shop:
             <input
               type="checkbox"
               className={
