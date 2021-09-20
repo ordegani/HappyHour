@@ -14,14 +14,14 @@ const Recipe = ({
     <div className="recipe">
       <h1>{title}</h1>
       <p>Calories: {Math.floor(calories)}</p>
-      <p>I need to buy:<br/></p>
+      <p >I need to buy:<br/></p>
       <ul> 
         {ingredients.map((ingredients, index) => (
           <li key={index}>
             <input
               type="checkbox"
               className={
-                window.location.pathname !== "/saved" ? "hide" : "checkbox"
+                window.location.name !== "/saved" ? "hide" : "checkbox"
               }
             />
             {ingredients.text}
