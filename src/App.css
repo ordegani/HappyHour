@@ -147,6 +147,7 @@
   align-items: center;
   flex-wrap: wrap;
   font-family: "Playfair Display", serif;
+  cursor:auto;
 }
 .closeContainer {
   color: var(--main);
