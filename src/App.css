@@ -55,7 +55,8 @@
   padding: 15px 25px 25px 25px;
   border: solid 2px var(--main);
 }
-.recipe > ul > p {
+.recipe > p:nth-of-type(2) {
+  text-decoration: underline;
 
 }
 .recipe li {
