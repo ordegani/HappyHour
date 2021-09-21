@@ -9,7 +9,7 @@ const Search = ({ favourites, setFavourites }) => {
 
   //setState, it's an array of objects
   const [recipes, setRecipes] = useState([]);
-  //setState search. default a empty string.
+  //setState search. default is an empty string.
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("cocktail");
   // const [favourites, setFavourites] = useState([]);
