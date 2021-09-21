@@ -11,7 +11,6 @@ const Recipe = ({
   heart,
 }) => {
   return (
-    
     <div className="recipe">
       <h1>{title}</h1>
       <p>Calories: {Math.floor(calories)}</p>
