@@ -12,7 +12,6 @@ const Search = ({ favourites, setFavourites }) => {
   //setState search. default is an empty string.
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("cocktail");
-  // const [favourites, setFavourites] = useState([]);
 
   //add to my existing list of favourites new recipe
   const addTofavourites = (savedRecipe) => {
