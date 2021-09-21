@@ -30,7 +30,7 @@ const Search = ({ favourites, setFavourites }) => {
       console.log(favourites);
     }
   };
-  //useEffect, rendering time is when query is updated
+  //useEffect. rendering time is when query is updated
   useEffect(() => {
     getRecipes();
   }, [query]);
