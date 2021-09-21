@@ -9,7 +9,7 @@ const Search = ({ favourites, setFavourites }) => {
 
   //setState, holding an array of objects
   const [recipes, setRecipes] = useState([]);
-  //setState search. default is an empty string.
+  //setState search. default is an empty string
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("cocktail");
 
@@ -35,7 +35,7 @@ const Search = ({ favourites, setFavourites }) => {
     getRecipes();
   }, [query]);
 
-  //insert the const APP_ID & const APP_KEY.
+  //insert the const APP_ID & const APP_KEY
   //'q=' will draw my user's text input
   const getRecipes = async () => {
     const response = await fetch(
