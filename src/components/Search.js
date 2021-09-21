@@ -53,7 +53,7 @@ const Search = ({ favourites, setFavourites }) => {
     setSearch(e.target.value);
   };
 
-  //set query equal to search pervent rendering whenever a letter is typed
+  //set query equal to search. pervent rendering whenever a letter is typed
   //use e.preventDefault() to pervant default q='chicken' query
   const getSearch = (e) => {
     e.preventDefault();
