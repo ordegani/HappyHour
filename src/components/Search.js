@@ -61,7 +61,6 @@ const Search = ({ favourites, setFavourites }) => {
     setSearch("");
   };
 
-  //TODO
   useEffect(() => {
     localStorage.setItem("favourites", JSON.stringify(favourites));
   }, [favourites]);
