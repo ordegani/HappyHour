@@ -13,7 +13,7 @@ const Search = ({ favourites, setFavourites }) => {
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("cocktail");
 
-  //add to my existing list of favourites new recipe
+  //add to my existing list of favourites a new recipe
   const addTofavourites = (savedRecipe) => {
     let isExists = false;
 
