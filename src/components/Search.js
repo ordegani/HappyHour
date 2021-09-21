@@ -7,7 +7,7 @@ const Search = ({ favourites, setFavourites }) => {
   const APP_ID = "a6127f3e";
   const APP_KEY = "379b06961b2bac9e9f2a72ba27d63d80";
 
-  //setState, it's an array of objects
+  //setState, holding an array of objects
   const [recipes, setRecipes] = useState([]);
   //setState search. default is an empty string.
   const [search, setSearch] = useState("");
