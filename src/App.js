@@ -17,7 +17,7 @@ function App() {
         <NavBar />
         <Switch>
           <Route path="/welcome" component={Welcome} />
-          {/* <Route exact path="/" component={Search} /> */}
+   
 
           <Route path="/" exact>
             <Search favourites={favourites} setFavourites={setFavourites} />
