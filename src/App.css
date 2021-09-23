@@ -4,7 +4,7 @@
   --main: #9c7c45;
   --sub: rgb(246, 247, 250);
   background-size: 100vh 100vh;
-  background-image: url("./background.jpg");
+  background-image: url("./background2.png");
   cursor: grab;
 }
 .maincontainer {
