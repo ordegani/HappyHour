@@ -3,7 +3,6 @@ import Recipe from "./Recipe";
 import "../App.css";
 
 export default function Saved({ favourites, setFavourites }) {
-  
   const deleteFromfavourites = (recipe) => {
     setFavourites(
       favourites.filter((favourite) => favourite.title !== recipe.title)
