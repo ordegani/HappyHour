@@ -8,7 +8,6 @@ const Recipe = ({
   ingredients,
   onClick,
   buttonText,
-  heart,
 }) => {
   return (
     <div className="recipe">
